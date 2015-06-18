@@ -249,7 +249,7 @@ angular.module('starter.controllers', [])
  $http.get('http://'+user_domain_local+'/api_services/user/get').
   success(function(data, status, headers, config) {
     
-     alert(data);
+    
      
     
   }).
